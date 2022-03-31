@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="210" height="69" viewBox="0 0 210 69">
+  <defs>
+    <filter id="Rectangle_48" x="0" y="0" width="210" height="69" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.4"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Button_login" transform="translate(-1572 -19)">
+    <g transform="matrix(1, 0, 0, 1, 1572, 19)" filter="url(#Rectangle_48)">
+      <rect id="Rectangle_48-2" data-name="Rectangle 48" width="192" height="51" rx="10" transform="translate(6 6)" fill="#7c4836"/>
+    </g>
+    <text id="ĐĂNG_NHẬP" data-name="ĐĂNG NHẬP" transform="translate(1634 58)" fill="#fff" font-size="20" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">ĐĂNG NHẬP</tspan></text>
+    <path id="Icon_open-account-login" data-name="Icon open-account-login" d="M10.1,0V3.366H23.563V20.2H10.1v3.366h16.83V0Zm3.366,6.732V10.1H0v3.366H13.464V16.83L20.2,11.781Z" transform="translate(1593.636 38.219)" fill="#fff"/>
+  </g>
+</svg>

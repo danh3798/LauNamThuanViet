@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="stylesheet" href="css/stylesform.css">
+    <title>Quên mật khẩu - Lẩu nấm Thuần Việt</title>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+    <style>
+        body{
+            background-image: url("images/login_background.png");
+        }
+
+        form .form-content .title{
+            margin-top: 0;
+        }
+
+        form .form-content .input-boxes{
+            margin-top: 5em;
+        }
+
+        form .form-content .button input{
+            width: 7em;
+        }
+
+        form .form-content .button text{
+            display: inline-block;
+            font-size: 12px;
+        }
+
+        form .form-content .input-boxes .input-box .text{
+            margin-left: 3em;
+            font-size: 18px;
+        }
+    </style>
+    <div class="container">
+        <div class="cover">
+            <div class="front">
+                <img src="images/cover_login.png" alt="">
+            </div>
+        </div>
+        <form action="#" onsubmit="alert('Gửi email thành công! Vui lòng kiểm tra trong Hộp thư đến hoặc mục Spam')">
+            <div class="form-content">
+                <div class="signup-form">
+                    <div class="title">
+                        <b>Quên mật khẩu</b>
+                    </div>
+                    <div class="input-boxes">
+                        <div class="input-box">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                            <input type="email" placeholder="Nhập địa chỉ Email" name="" id="" required>
+                        </div>
+                        <br>
+                        <br>
+                        <p>Nhấn để xác thực</p>
+                        <div class="g-recaptcha" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"></div>
+                        <div class="button input-box">
+                            <input type="submit" value="Gửi">
+                            <div class="text"><label for="" onclick="location.href='login.html'">Quay lại</label></div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
